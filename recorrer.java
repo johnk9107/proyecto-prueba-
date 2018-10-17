@@ -7,6 +7,8 @@ public class recorrer
     {
        Scanner in = new Scanner(System.in);
        int n;
+        int a,b,c;
+        
        System.out.println("INGRESE EL TAMAÑO DE LA MATRIZ");
        n = in.nextInt();
        int [][] matriz = new int [n][n];
